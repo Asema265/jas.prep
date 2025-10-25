@@ -350,12 +350,15 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .about-logo {
-  width: 90px;           /* можно поменять размер */
+  width: 50px;             /* сделай меньше, можно 60px или 80px */
   height: auto;
-  margin-bottom: 0.6rem; /* отступ между логотипом и заголовком */
-  border-radius: 12px;
+  margin-bottom: 0.8rem;   /* расстояние между логотипом и заголовком */
+  border-radius: 12px;     /* скруглённые углы (можно убрать, если не нужно) */
   object-fit: contain;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;      /* центрирует картинку */
 }
 
 .about h2 {
